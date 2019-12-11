@@ -2,6 +2,7 @@
   "name": "typescript-cli-starter",
   "version": "1.0.0",
   "description": "",
+  "repository": "",
   "main": "src/index.ts",
   "scripts": {
     "lint": "tslint \"src/**/*.ts\" --project tsconfig.json",
@@ -10,12 +11,12 @@
   "author": "Cody Carse",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^2.4.1",
-    "ts-node": "^7.0.1",
-    "typescript": "^3.1.6"
+    "chalk": "^3.0.0"
   },
   "devDependencies": {
-    "@types/node": "^10.12.6",
-    "tslint": "^5.11.0"
+    "@types/node": "^12.12.17",
+    "ts-node": "^8.5.4",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.3"
   }
 }
